@@ -19,6 +19,24 @@ These type of model would be usefult to the real estate agent who coluld use thi
 The Boston housing data was collected in 1978 and each of the 506 entries represent aggregated data about 14 features for homes from various suburbs in Boston, Massachusetts.
 But for this project we only consider the important features such as:
 
+### Images
+
+![](images/pic1.png)<br/>
+
+The above graph shows that MEDV is distributed normally and there are some outliers presented.<br/>
+
+![](images/pic2.png)<br/>
+
+We can observe in the above image that RM has strong positive correlation with MEDV (0.7). LSAT has negative correlation -0.74 with the MEDV.<br/>
+RAD and TAX has correlation of 0.91. So these features are sotrongly paired to each other.<br/>
+
+![](images/pic3.png)<br/>
+We can observe in the above image that price decreases with increase of LSTAT.<br/>
+The price increases as RM increases linearly.Also there are few outliers present.<br/>
+   
+
+
+
 ### Observations
 1. The target variable is MEDV which is just price.
 2. We also find interesting data such as maximum,minimum prices.
